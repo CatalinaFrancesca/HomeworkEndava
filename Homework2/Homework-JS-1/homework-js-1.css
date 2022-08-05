@@ -1,0 +1,48 @@
+.calculator {
+  display: flexbox;
+  background-color: rgb(46, 45, 45);
+  margin-top: 200px;
+  margin-left: 700px;
+  margin-right: 1095px;
+  height: 290px;
+  width: 330px;
+}
+
+#display {
+  height: 50px;
+  width: 322px;
+  font-size: large;
+  font-family: Verdana;
+  background-color: rgb(165, 165, 165);
+  border-color: rgb(46, 45, 45);
+  pointer-events: none;
+}
+
+#number {
+  height: 220%;
+  width: 20%;
+  padding: 10px;
+  background-color: rgb(228, 228, 228);
+  font-size: large;
+  font-family: Verdana;
+  margin: 5px 6px;
+}
+
+#sign {
+  height: 210%;
+  width: 23%;
+  padding: 10px;
+  background-color: rgb(223, 212, 117);
+  font-size: large;
+  font-family: Verdana;
+}
+
+#equal {
+  padding: 10px;
+  height: 210%;
+  width: 45%;
+  margin: 5px 6px;
+  background-color: rgb(51, 106, 51);
+  font-size: large;
+  font-family: Verdana;
+}
