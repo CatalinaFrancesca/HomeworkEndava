@@ -1,6 +1,6 @@
 function countElementsInDocument(document) {
   let div = document.getElementById("divId");
-  let list = div.querySelectorAll("text");
+  let list = div.querySelectorAll("span");
   let elementNumber = 0;
   if (elementNumber) {
     elementNumber +=
