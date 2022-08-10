@@ -1,8 +1,8 @@
 function countElementsByLevel(document) {
 
-  const div = document.querySelector("#divId");
-  const listOfChildren = div.childNodes;
-  console.log(div.children);
+  const div = document.getElementById("divId");
+  const listOfChildren = div.children;
+  console.log(listOfChildren);
 }
 
 countElementsByLevel(document);
